@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Serviços de consultoria especializados em ERP, desenvolvimento de landing pages, otimização SEO e suporte contínuo. Transforme sua empresa com soluções personalizadas.">
+    <meta name="keywords" content="consultoria, Totvs, Protheus, RM, Analista de Sistemas, Guarapuava, Paraná, ERP, landing pages, SEO, suporte, desenvolvimento, treinamento, banco de dados, BI">
+    <meta name="author" content="Sua Empresa">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <title>WR Soluções em TI</title>
+</head>
+<body>
+    <header>
+        <h1>WR Soluções em TI</h1>
+        <p>Transforme sua empresa com soluções personalizadas!</p>
+    </header>
+    <main>
+        <section class="services">
+            <div class="service">
+                <i class="fas fa-cogs"></i>
+                <h2>Consultoria em Sistemas ERP</h2>
+                <p>Otimize sua gestão com nossa consultoria especializada em soluções Totvs Protheus e RM, trazendo inovação e eficiência para o seu negócio.</p>
+            </div>
+            <div class="service">
+                <i class="fas fa-cogs"></i>
+                <h2>Sistemas</h2>
+                <p>Desenvolvemos soluções sob medida para suas necessidades.</p>
+            </div>
+            <div class="service">
+                <i class="fas fa-tools"></i>
+                <h2>Suporte e Manutenção</h2>
+                <p>Oferecemos suporte contínuo para garantir a operação eficiente dos seus sistemas.</p>
+            </div>
+            <div class="service">
+                <i class="fas fa-sync"></i>
+                <h2>Análise de Processos em ERP</h2>
+                <p>Aprimore sua eficiência com análise, melhorias contínuas e automação de processos.</p>
+            </div>
+            <div class="service">
+                <i class="fas fa-database"></i>
+                <h2>Banco de Dados</h2>
+                <p>Gerenciamento e otimização de bancos de dados para sua empresa.</p>
+            </div>
+            <div class="service">
+                <i class="fas fa-chart-line"></i>
+                <h2>Business Intelligence (BI)</h2>
+                <p>Transforme dados em insights valiosos para decisões estratégicas.</p>
+            </div>
+            <div class="service">
+                <i class="fas fa-laptop-code"></i>
+                <h2>Desenvolvimento Web</h2>
+                <p>Desenvolvemos sites personalizados que combinam design atrativo e funcionalidade para impulsionar sua presença online.</p>
+            </div>
+        </section>
+        <section class="contact-form">
+            <h2>Entre em Contato</h2>
+            <form>
+                <input type="text" placeholder="Seu Nome" required>
+                <input type="email" placeholder="Seu Email" required>
+                <textarea placeholder="Sua Mensagem" required></textarea>
+                <button type="submit">Enviar</button>
+            </form>
+        </section>
+    </main>
+    
+    <footer>
+        <p>&copy; 2024 WR Soluções em TI. Todos os direitos reservados.</p>
+    </footer>
+    <a href="#" class="whatsapp-button" id="whatsapp-button">
+        <i class="fab fa-whatsapp"></i>
+    </a>
+    <script>
+        document.getElementById('whatsapp-button').addEventListener('click', function() {
+            const phoneNumber = '5511999999999'; // Substitua pelo seu número real
+            const message = 'Olá! Gostaria de mais informações.';
+            const url = `https://api.whatsapp.com/send?phone=${phoneNumber}&text=${encodeURIComponent(message)}`;
+            
+            window.open(url, '_blank');
+        });
+    </script>
+</body>
+</html>
